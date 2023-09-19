@@ -188,14 +188,34 @@ div[title*="s"]{
 }
 
 
+/* a[href*="www"] {
+    font-size: 48px;
+} */
+
 /* CSS DISPLAYS */
+.block-level {
+    border: 5px solid black;
+}
 
+.block-level > h3 {
+    border: 3px solid magenta;
+    /* override the default display: block */
+    display: inline
+}
 
+#displays a {
+    border: 3px solid firebrick;
+}
 
 /* 
     Display: None
     Used to hide an element. Commonly used with JavaScript 
 */
+
+#middle {
+    border: 3px solid darkred;
+    display: none;
+}
 
 
 
